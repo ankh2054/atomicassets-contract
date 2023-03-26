@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  vulnerability_scanner:
+  eosio_vulnerability_scanner:
     runs-on: ubuntu-latest
 
     steps:
