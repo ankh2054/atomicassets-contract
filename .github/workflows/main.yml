@@ -3,7 +3,7 @@ name: EOSIO Vulnerability Scanner
 on:
   push:
     branches:
-      - main
+      - master 
 
 jobs:
   eosio_vulnerability_scanner:
