@@ -3,7 +3,7 @@
 
 /**
 *  Initializes the config table. Only needs to be called once when first deploying the contract
-*  @required_auth The contract itself
+*  @required_auth The contract itself.
 */
 ACTION atomicassets::init() {
     require_auth(get_self());
