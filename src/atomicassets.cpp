@@ -18,7 +18,7 @@ ACTION atomicassets::init() {
 ACTION atomicassets::admincoledit(vector <atomicdata::FORMAT> collection_format_extension) {
     require_auth(get_self());
 
-    check(collection_format_extension.size() != 0, "Need to add at least one ne lines");
+    check(collection_format_extension.size() != 0, "Need to add at least one ne line");
 
     config_s current_config = config.get();
     current_config.collection_format.insert(
